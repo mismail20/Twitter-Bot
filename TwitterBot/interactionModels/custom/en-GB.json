@@ -1,0 +1,75 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "twitter bot",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "promotional",
+          "slots": [],
+          "samples": [
+            "promotional",
+            "send some promotions",
+            "promote by business",
+            "send promotional tweets",
+            "promote tweet",
+            "promotional tweet"
+          ]
+        },
+        {
+          "name": "custom",
+          "slots": [],
+          "samples": [
+            "something personal",
+            "something custom",
+            "custom message",
+            "can i send a personal tweet",
+            "can i send a custom tweet",
+            "i want to personally tweet myself",
+            "i want to send a custom message",
+            "i want to tweet something i say",
+            "i want to tweet myself",
+            "i want to post a custom tweet",
+            "i want to post my own tweet",
+            "send my own tweet",
+            "send a custom tweet",
+            "custom tweet",
+            "custom"
+          ]
+        },
+        {
+          "name": "getCustomTweet",
+          "slots": [
+            {
+              "name": "tweet",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "twitter send {tweet}",
+            "twitter post {tweet}",
+            "twitter bot send {tweet}",
+            "twitter bot post {tweet}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "19"
+}

@@ -1,0 +1,32 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:797731641575:function:3bb535e6-d28e-4baa-b16e-1f23a4e5b43a:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-GB": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "keywords": [],
+          "name": "Tweet Scheduler",
+          "summary": "Sample Short Description"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
